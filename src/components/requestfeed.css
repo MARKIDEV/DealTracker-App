@@ -1,0 +1,103 @@
+.feed {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+}
+.feed h2 {
+  color: #bdab08;
+}
+.plus {
+  font-size: 50px;
+  padding: 5px;
+}
+.feed-Content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px auto;
+  border: 1px solid #bdab08;
+  border-radius: 10px;
+}
+.Card {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  background-color: rgb(237, 239, 241);
+  margin: 11px;
+  width: 1276px;
+  padding: 10px;
+}
+.card-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+}
+.card-text div {
+  padding: 10px;
+  width: 195px;
+}
+
+.info {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.add-btn {
+  background-color: #fb8c00;
+  border-radius: 5px;
+  border: solid 1px;
+  width: auto;
+  height: 25px;
+  color: #f0eeeb;
+  font-weight: bold;
+  font-size: 10px;
+  opacity: 0.9;
+}
+.card-button {
+  background-color: #0e1025;
+  border-radius: 7px;
+  border: solid 1px;
+  width: auto;
+  height: 60px;
+  color: #bdab08;
+  font-weight: bold;
+  font-size: 15px;
+  opacity: 0.9;
+}
+.button a:hover {
+  text-decoration: none;
+  color: #bdab08;
+  opacity: 1;
+}
+
+.card-button:hover {
+  opacity: 1;
+}
+.share:hover {
+  opacity: 1;
+}
+.button {
+  background-color: transparent;
+  border-radius: 7px;
+  border: solid 1px;
+  color: #bdab08;
+  font-weight: bold;
+  font-size: 25px;
+}
+.button a {
+  color: #bdab08;
+  opacity: 0.7;
+}
+.btn-remove {
+  background-color: transparent;
+  border-radius: 7px;
+  margin-left: 25px;
+  border: 0;
+  color: #bd3b08;
+  font-weight: bold;
+  font-size: 15px;
+  height: 25px;
+}

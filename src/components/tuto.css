@@ -1,0 +1,49 @@
+.tuto{
+  display: flex;
+  flex-direction: column;
+}
+.title-tuto{
+  text-align: center;
+  font-size: 40px;
+  color:gray
+}
+.content-tuto {
+  display: flex;
+
+  width: 90%;
+}
+
+.card-tuto-content {
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 10px;
+  width:227px;
+  
+  padding: 44px;
+  display: flex;
+  flex-direction: column;
+}
+.img-tuto {
+  margin: 15px auto;
+  width: 120px;
+  height: 85px;
+  border-radius: 10px;
+}
+
+.card-tuto:hover .card-tuto-content {
+  
+ 
+  align-items: center;
+  
+  background-color: #fb8c00;
+}
+.p-tuto {
+  display: none;
+ 
+}
+.card-tuto:hover .p-tuto{
+  display: flex;
+  color: #fff;
+  background-color: #fb8c00;
+}

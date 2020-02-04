@@ -1,0 +1,84 @@
+.App-header {
+  width: auto;
+  height: 600px;
+}
+.logoAndSlogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Volkhov&display=swap");
+.Deal {
+  font-family: "Volkhov", serif;
+  font-size: 81px;
+  color: #009688;
+  opacity: 0.8;
+}
+.Tracker {
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+  color: #fb8c00;
+}
+.slogan {
+  margin-top: -18px;
+  text-align: center;
+  font-size: 14px;
+  color: #fb8c00;
+}
+.logoAndBtn {
+  display: flex;
+  opacity: 0.95;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 25px;
+}
+
+.fixed {
+  top: 0;
+  position: fixed;
+  background-color: #263238;
+  width: 100%;
+  z-index: 2;
+}
+.btn-header {
+  color: #fff;
+  background-color: #fb8c00;
+  border-color: #fb8c00;
+  border-radius: 5px;
+  border: solid 1px transparent;
+  width: 126px;
+  height: 43px;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.btn-header a {
+  color: #fff;
+}
+.btn-header:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #009688;
+}
+.connexion {
+  display: flex;
+  justify-content: space-between;
+}
+.connexion a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.link-header {
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.5;
+}
+.link-header:hover {
+  text-decoration: none;
+
+  color: #fff;
+}

@@ -1,0 +1,105 @@
+.wrap {
+  position: relative;
+  width: 180vmin;
+  height: 180vmin;
+  margin: auto;
+}
+.link-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 47.5%;
+  height: 47.5%;
+  overflow: hidden;
+  transform: scale(0.5) translateZ(0px);
+  background: #585247;
+  text-decoration: none;
+}
+.link-item div {
+  height: 100%;
+  background-size: cover;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+.link-item:nth-child(1) {
+  border-radius: 40vmin 0 0 0;
+  transform-origin: 110% 110%;
+  transition: transform 0.4s 0.15s;
+}
+.link-item:nth-child(1) div {
+  background-image: url("..\img\businessman.jpg");
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 10px;
+}
+.link-item:nth-child(2) {
+  border-radius: 0 40vmin 0 0;
+  left: 52.5%;
+  transform-origin: -10% 110%;
+  transition: transform 0.4s 0.2s;
+}
+.link-item:nth-child(2) div {
+  background-image: url("..\img\meeting.jpg");
+  display: flex;
+  justify-content: flex-start;
+}
+.link-item:nth-child(3) {
+  border-radius: 0 0 0 40vmin;
+  top: 52.5%;
+  transform-origin: 110% -10%;
+  transition: transform 0.4s 0.25s;
+}
+.link-item:nth-child(3) div {
+  background-image: url("..\img\truck.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link-item:nth-child(4) {
+  border-radius: 0 0 40vmin 0;
+  top: 52.5%;
+  left: 52.5%;
+  transform-origin: -10% -10%;
+  transition: transform 0.4s 0.3s;
+}
+.link-item:nth-child(4) div {
+  background-image: url("..\img\containers.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.link-item:nth-child(5) {
+  width: 55%;
+  height: 55%;
+  left: 22.5%;
+  top: 22.5%;
+  border-radius: 70vmin;
+  box-shadow: 0 0 0 5vmin rgb(210, 227, 211);
+  transform: scale(0.4);
+}
+.link-item:nth-child(5) div {
+  background: linear-gradient(to bottom, #1f2b6c, #bebcc1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-items {
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  color: white;
+}
+.nav-center {
+  text-align: center;
+  font-size: 60px;
+  color: #bebcc1;
+}
+
+.wrap:hover .link-item {
+  transform: scale(0.7);
+  text-decoration: none;
+}
+.link-item:hover div {
+  opacity: 1;
+}

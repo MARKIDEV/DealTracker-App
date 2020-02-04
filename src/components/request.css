@@ -1,0 +1,40 @@
+.request {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 226px;
+}
+.create {
+  text-align: center;
+  font-size: 40px;
+  color: gray;
+  margin-bottom: 80px;
+}
+
+.form {
+  opacity: 0.9;
+  border-radius: 7px;
+  margin: auto;
+}
+.form-input {
+  width: 300px;
+}
+.input-group-text {
+  width: 200px;
+  background-color: #009688;
+  color: white;
+}
+.new:hover {
+  background-color: #fb8c00;
+}
+.share-button {
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  border: 0.5px whitesmoke solid;
+  border-radius: 6px;
+  background-color: #009688;
+  margin: 33px 117px;
+  padding: 7px;
+  height: 60px
+}

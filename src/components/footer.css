@@ -1,0 +1,64 @@
+.footer {
+  display: flex;
+    padding: 50px;
+    margin-top: 140px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: 0.3px solid #dad8d8;
+    background-color: #263238;
+    height: 222px;
+
+  }
+  .logoAndSlogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+  
+  @import url("https://fonts.googleapis.com/css?family=Volkhov&display=swap");
+  .Deal {
+    font-family: "Volkhov", serif;
+    font-size: 81px;
+    color: #009688;
+    opacity:0.8
+  }
+  .Tracker {
+    font-family: "Pacifico", cursive;
+    font-size: 48px;
+    color: #fb8c00;
+  }
+  .slogan {
+    margin-top: -18px;
+    text-align: center;
+    font-size: 14px;
+    color: #fb8c00;
+  }
+  .footer  small  p a {
+      text-decoration: none;
+     margin: 10px;
+     color:#dad8d8
+  }
+  .footer  small  p a:hover  {
+    text-decoration: none;
+   color:#fb8c00
+}
+  .footer  small  div{
+    display:flex;
+   flex-basis: 1 1;
+    justify-content: space-between;
+  }
+  small{
+    border-left: 1px solid gray;
+    padding: 50px;
+    margin-left: 25px;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .markidev{
+    color:#009688
+  }
